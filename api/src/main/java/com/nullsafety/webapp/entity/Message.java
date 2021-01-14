@@ -9,9 +9,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Message {
 
   @Id
-  public String id;
-  public String name;
-  public String message;
+  private String id;
+  private String name;
+  private String message;
 
 
 }
